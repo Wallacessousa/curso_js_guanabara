@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{font: normal 20pt arial;}
+    </style>
+
+    <script>
+
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá <strong>${nome}</strong>.`)
+        document.write(`Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}.<br>`)
+        document.write(`Seu nome em minúsculo é ${nome.toLocaleLowerCase()}.`)
+
+        //toLocaleAString => Pra fazer conversãode moedas BRL pra EUR por exemplo.
+
+
+
+
+    </script>
+</body>
+</html>
